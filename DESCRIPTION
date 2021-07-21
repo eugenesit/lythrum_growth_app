@@ -1,0 +1,22 @@
+Package: lythrum.growth.curves
+Title: Draw growth curves for all individuals in cglythrum project
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Eugene",
+           family = "Sit",
+           role = c("aut", "cre"),
+           email = "eugene.sit@queensu.ca",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Draw growth curves for individuals selected from a nested dropdown menu, displays individual growth function parameters and histograms showing value of parameters relative to the population. Height of the plot is automatic or can be adjusted manually.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    shiny,
+    pkgload,
+    dplyr,
+    ggplot2
